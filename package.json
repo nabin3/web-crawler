@@ -1,0 +1,26 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Create an internal-links report for any website in the internet by crawling each page of that site",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabin3/web-crawler.git"
+  },
+  "author": "Nabin Chandra Maiti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabin3/web-crawler/issues"
+  },
+  "homepage": "https://github.com/nabin3/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
